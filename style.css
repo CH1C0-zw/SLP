@@ -1,0 +1,53 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter";
+    text-align: center;
+}
+.form{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 75px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 3%;
+    
+}
+.Container{
+    position: relative;
+    display: inline-flex;
+    gap: 20px;
+    flex-direction: column;
+
+}
+.Container > div{
+    background-color: hsl(0, 0%, 20%);
+    flex-basis: 40px;
+    padding-top: 20px;
+    padding-inline: 130px;
+    border-radius: 10px;
+}
+img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+/* Add these rules */
+.Container h1 {
+  margin: 0 0 -5px 0; /* Bottom margin only (8px) */
+  font-size: 24px; /* Match design sizing */
+}
+
+.Container h3 {
+  margin: 0; /* Remove all margins */
+  color: hsl(75, 94%, 57%); /* Add accent color */
+  font-size: 14px;
+}
+
+.Container p {
+  margin: 16px 0; /* Space above/below the quote */
+  font-size: 17px;
+}
+div:last-of-type{
+    margin-bottom: 40px;
+}
